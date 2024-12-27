@@ -40,6 +40,6 @@ The challenge was to build a functional and styled Landing Page using only HTML 
 
 ## Notes
 
-- This project was forked from [trilha-css-desafio-01](https://github.com/digitalinnovationone/trilha-css-desafio-01)
+- This project was forked from [trilha-css-desafio-01](https://github.com/digitalinnovationone/trilha-css-desafio-01);
 - To apply gradient text effects, I used the CSS `background-clip` property. To ensure compatibility with some browsers, I added `-webkit-background-clip: text`.
 
