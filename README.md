@@ -1,22 +1,45 @@
-# Desafio 01: Criando sua primeira Landing Page com HTML e CSS
+<h1 align="center">Landing Page: DIO CSS Developer</h1>
 
-Bem vindo(a) ao primeiro desafio da Trilha de CSS da DIO! Nela, você vai construir sua primeira Landing Page com HTML e CSS, colocando em prática os fundamentos do CSS,
-as propriedades básicas da linguagem de estilização, além de trabalhar com as unidades de medidas relativas e absolutas que aprendemos ao longo da trilha.
+This repository contains the final result of the project developed as part of the "Creating Your First Landing Page with HTML and CSS" challenge from the CSS Track by DIO. In this project, I applied CSS fundamentals, element styling, and the use of relative and absolute measurement units learned throughout the track.
 
-[Clique aqui](https://micheleambrosio.github.io/dio-trilha-css-desafio-01/) para acessar o resultado final da Landing Page criada a partir do desafio!
+## Challenge
 
-![image](https://user-images.githubusercontent.com/55519539/183538055-6cce606c-7d1d-4d15-a4be-ffeb5b37c956.png)
+The challenge was to build a functional and styled Landing Page using only HTML and CSS, starting with a basic structure and following the prototype provided in Figma.
+- If you want to compare my result with the original challenge, visit:
+  - [Figma Prototype Link](https://www.figma.com/file/3PiokoJj9IhGDnNiWAJbz7/DIO---Desafio-01?node-id=2%3A6)
 
-Para você realizar o desafio, basta fazer um **fork** para o seu GitHub e começar a mexer no projeto.
-Dentro da pasta *main*, você vai encontrar todas as imagens e o arquivo HTML, contendo a estrutura básica da sua página, faltando apenas
-realizar a estilização da sua página. É necessário que você faça toda a parte responsável por interligar sua página HTML com suas folhas
-de estilo para que o resultado da estilização funcione.
+### Main Objectives:
 
-[Link do Figma](https://www.figma.com/file/3PiokoJj9IhGDnNiWAJbz7/DIO---Desafio-01?node-id=2%3A6) contendo o protótipo do desafio para
-que você possa se basear.
+- Apply CSS fundamentals to style the page.
+- Work with relative and absolute measurement units.
+- Properly link the CSS file with the HTML.
 
-*Observações: para aplicar os textos em gradiente, utilize a propriedade CSS background-clip, porém, para funcionar em alguns navegadores,
-é necessário utilizar a propriedade -webkit-background-clip: text;*
+## Completed Project
 
-Caso tenha alguma dúvida, ou queira comparar o resultado do desafio que você fez, nós temos o site finalizado na branch *final*. Basta alterar a branch do projeto
-utilizando o comando `git checkout final` no seu terminal.
+![Landing Page](https://user-images.githubusercontent.com/55519539/183538055-6cce606c-7d1d-4d15-a4be-ffeb5b37c956.png)
+
+## How to Run the Project
+
+1. Fork this repository to your GitHub account.
+2. Clone the forked repository to your computer:
+   ```bash
+   git clone https://github.com/your-username/landing-page-trilha-css-DIO.git
+   ```
+3. Navigate to the project folder:
+   ```bash
+   cd landing-page-trilha-css-DIO
+   ```
+4. Open the `index.html` file in your browser to view the page.
+
+## Project Structure
+
+- **`index.html`**: Contains the basic HTML structure of the page.
+- **`/assets`**: Folder containing assets used in the project.
+- **`/images`**: Folder containing images used in the project.
+- **`/css`**: Folder containing the created CSS files.
+
+## Notes
+
+- This project was forked from [trilha-css-desafio-01](https://github.com/digitalinnovationone/trilha-css-desafio-01)
+- To apply gradient text effects, I used the CSS `background-clip` property. To ensure compatibility with some browsers, I added `-webkit-background-clip: text`.
+
