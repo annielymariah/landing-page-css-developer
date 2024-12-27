@@ -1,1 +1,116 @@
-@import url(reset.css);
+@import url('reset.css');
+
+body {
+    background-color: black;
+}
+
+h1 {
+    font-weight: 900;
+    text-transform: uppercase;
+    background-image: linear-gradient(rgba(51, 168, 219, 1), rgba(20, 114, 183, 1));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 40px;
+
+}
+
+h2 {
+    font-size: 32px;
+    color: #33A8DB;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+
+p {
+    color: white;
+    font-size: 16px;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, 0.2), rgba(0, 0, 0, .6)), url('../images/banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 605px;
+    border-bottom: 1px solid #33A8DB;
+}
+
+.banner .banner-content {
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.banner .banner-content p {
+    font-size: 20px;
+    margin: 16px 0 24px;
+    text-align: justify;
+}
+
+.banner .banner-content button {
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 16px;
+    letter-spacing: 4px;
+    background-image: linear-gradient(#3BA1CD, #1572B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    border: 2px solid #33A8DB;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(#3BA1CD, #1572B7);
+    padding: 16px 32px;
+    width: 326px;
+    height: 57px;
+}
+
+.banner .banner-content button:hover {
+    cursor: pointer;
+}
+
+.banner .banner-content .logo {
+    background-color: rgba(0, 0, 0, .2);
+    height: 268px;
+    width: 268px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.banner .banner-content .logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#course-content {
+    width: 800px;
+    text-align: center;
+}
+
+#course-content {
+
+}
+
+#transform-world {
+height: 500px;
+background-size: cover;
+background-attachment: fixed;
+background-image: url("../images/woman-code.png");
+border-top: 1px solid #33A8DB;
+border-bottom: 1px solid #33A8DB;
+padding: 200px;
+}
+
+#transform-world p {
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: lowercase;
+    max-width: 250px;
+    text-shadow:3px 2px #33A8DB;
+}
