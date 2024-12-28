@@ -23,11 +23,11 @@ The challenge was to build a functional and styled Landing Page using only HTML 
 1. Fork this repository to your GitHub account.
 2. Clone the forked repository to your computer:
    ```bash
-   git clone https://github.com/your-username/landing-page-trilha-css-DIO.git
+   git clone https://github.com/your-username/landing-page-css-developer.git
    ```
 3. Navigate to the project folder:
    ```bash
-   cd landing-page-trilha-css-DIO
+   cd landing-page-css-developer
    ```
 4. Open the `index.html` file in your browser to view the page.
 
