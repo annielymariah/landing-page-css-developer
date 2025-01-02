@@ -69,10 +69,13 @@ section {
     padding: 16px 32px;
     width: 326px;
     height: 57px;
+    transition: 0.3s ease-in-out;
 }
 
 .banner .banner-content button:hover {
     cursor: pointer;
+    backdrop-filter: blur(10px);
+    transform: scale(1.1);
 }
 
 .banner .banner-content .logo {
